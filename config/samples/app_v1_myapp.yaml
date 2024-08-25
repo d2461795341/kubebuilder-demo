@@ -1,0 +1,9 @@
+apiVersion: app.dkj.com/v1
+kind: Myapp
+metadata:
+  labels:
+    app.kubernetes.io/name: kubebuilder-demo
+    app.kubernetes.io/managed-by: kustomize
+  name: myapp-sample
+spec:
+  # TODO(user): Add fields here

@@ -1,0 +1,10 @@
+apiVersion: app.dkj.com/v1
+kind: Myapp
+metadata:
+  name: myapp-sample
+  namespace: dkj
+spec:
+  enable_ingress: true
+  enable_service: true
+  replicas: 2
+  image: nginx:latest
